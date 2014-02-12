@@ -1,0 +1,16 @@
+Metadata-Version: 0.1
+Name: collective.colport
+Summary: Product to manage costs from VIB.
+Home-page: http://cofely-experts.info
+Author: Bas Roijen
+Author-email: bas.roijen@cofely-gdfsuez.nl
+License: GPL
+Description: Product to manage costs from VIB.
+        
+Keywords: zope archetypes plone
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Framework :: Zope2
+Classifier: Framework :: Zope3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

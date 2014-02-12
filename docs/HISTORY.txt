@@ -1,0 +1,19 @@
+Changelog
+=========
+
+0.2 - 24-03-2011
+----------------
+
+* 'from Globals import InitializeClass' is deprecated,
+  use 'from App.class_init import InitializeClass' for Plone 4 instead.
+* Updated 'README.txt'
+* Pep8 & Pyflakes cleanup
+* Updated description
+* Quoting can now be set
+
+
+0.1 - 08-07-2010
+----------------
+
+* Initial release
+

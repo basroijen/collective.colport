@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_actions">
+ <object name="object" meta_type="CMF Action Category">
+  <object name="csvexport" meta_type="CMF Action" insert-after="contentrules">
+   <property name="title">CSV Export</property>
+   <property name="description">Export a collection as CSV</property>
+   <property name="url_expr">string:${object_url}/colport_tool/export_as_csv</property>
+   <property name="available_expr">python: object.portal_type=='Topic' or object.portal_type=='Collection'</property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+</object>

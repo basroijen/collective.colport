@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+   <!-- This package is a Zope 2 product -->
+   <five:registerPackage package="." initialize=".initialize" />
+
+   <!-- Register the installation GenericSetup extension profile -->
+   <genericsetup:registerProfile
+      name="default"
+      title="Collection Exporter"
+      directory="profiles/default"
+      description="Export a collection as CSV"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
